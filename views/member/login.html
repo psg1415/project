@@ -1,0 +1,21 @@
+{% extends '../layout.html' %}
+{% block content %}
+<div class="layout_width">
+    <form method="post" action="/member/login" target='ifrmHidden' class="login_box">
+        <h1>로그인</h1>
+	<dl>
+		<dt>아이디</dt>
+		<dd>
+			<input type="text" name="memId">
+		</dd>
+	</dl>
+	<dl>
+		<dt>비밀번호</dt>
+		<dd>
+			<input type="password" name="memPw">
+		</dd>
+	</dl>
+	<input type="submit" value="Login">
+</form>
+</div>
+{% endblock %}

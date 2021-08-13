@@ -1,0 +1,79 @@
+#layer_popup #layer_desc {
+    padding: 0 6.5vmin;
+  }
+  
+  #layer_popup #layer_desc > dl {
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  #layer_popup #layer_desc > dl > dt {
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  #layer_popup #layer_desc > dl > dd {
+    margin: 0;
+  }
+  
+  #layer_popup #layer_desc > dl > dd > .title {
+    width: 60vmin;
+    height: 5vmin;
+  }
+  
+  #layer_popup #layer_desc > dl > dd > .desc {
+    width: 60vmin;
+    height: 36vmin;
+    margin-bottom: 1vmin;
+  }
+  
+  #layer_popup #layer_desc > .button {
+    float: right;
+  }
+  header{
+    text-align: center;
+    font-size: 10vmin;
+     font-family: "Bungee", cursive;
+    letter-spacing: -0.8px;
+    font-size: 7vmin;
+    padding: 3vmin 0 5vmin 0;
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fff2lftqIE077pFAKU1Mhbcj8YFvBbMvpA&usqp=CAU);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+header a{
+    
+    margin-left: 5vmin;
+}
+
+  .schedule_form input[type="text"]{
+      width: 40vmin;
+      height: 6vmin;
+      font-size: 5vmin;
+  }
+  
+  .schedule_form span{
+      font-size: 5vmin;
+      margin-left: 7vmin;
+      font-weight: 700;
+      color: #a6e3e9;
+      font-family: "Nanum Gothic", cursive;
+  }
+  .schedule_form i{
+      position: relative;
+      top: 1vmin;
+      left : 2vmin;
+      font-size: 6vmin;
+  }
+  .schedule_form input[type="submit"]{
+      position: fixed;
+      bottom: 3vmin;
+      right: 3vmin;
+      font-size: 8vmin;
+      padding: 1vmin;
+      border: 0.5vmin solid #d5d5d5;
+      color: white;
+      font-family: "Black Han Sans", cursive;
+      background-color: #a6e3e9;
+  }
